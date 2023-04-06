@@ -146,11 +146,13 @@ header {
   position: absolute;
   right: -1.5rem;
   top: -9.5rem;
+  border-radius: 50px;
 }
 .home__images img:nth-child(2) {
   width: 180px;
   margin-left: 0.5rem;
   position: relative;
+  border-radius: 50px;
 }
 /* home button  */
 .button__link {
@@ -180,6 +182,7 @@ header {
 .new__img {
   width: 270px;
   margin-bottom: 1rem;
+  border-radius: 10px;
 }
 .new__link {
   display: flex;
