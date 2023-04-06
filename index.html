@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css"
+      rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo"> products. </a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">
+                <i class="ri-home-2-line"></i>
+                <span>Home</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#new" class="nav__link">
+                <i class="ri-price-tag-3-line"></i>
+                <span>New</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#collection" class="nav__link">
+                <i class="ri-compass-3-line"></i>
+                <span>Collection</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#products" class="nav__link">
+                <i class="ri-t-shirt-line"></i>
+                <span>Products</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- theme change -->
+        <i class="ri-moon-line theme-button" id="theme-button"></i>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="home section">
+        <div id="home" class="home__container container grid">
+          <div
+            class="home__data"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500">
+            <h1 class="home__title">
+              New Clothing <br />
+              Collection
+            </h1>
+
+            <p class="home__desctoption">
+              the new collection of clothinf from<br />
+              the best brands this year.
+            </p>
+
+            <a href="#new" class="button__link"
+              >Explore
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+          <div class="home__images" data-aos="fade-up" data-aos-duration="3000">
+            <img src="./img/home1.jpg" alt="" />
+            <img src="./img/home2.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- start new section  -->
+      <section class="new section" id="new">
+        <h2 class="section__title">New Categories</h2>
+        <div class="new__container container grid">
+          <article
+            class="new__card"
+            data-aos="fade-up"
+            data-aos-duration="2000">
+            <img src="./img/new1.jpg" class="new__img" alt="" />
+            <a href="#" class="new__link">
+              <div class="new__data">
+                <h2 class="new__title">Hoodie & Sweatshirt</h2>
+                <span>Winter collection</span>
+              </div>
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </article>
+
+          <article
+            class="new__card"
+            data-aos="fade-up"
+            data-aos-duration="2000">
+            <img src="./img/new2.jpg" class="new__img" alt="" />
+            <a href="#" class="new__link">
+              <div class="new__data">
+                <h2 class="new__title">Pants & Jackets</h2>
+                <span>Winter collection</span>
+              </div>
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </article>
+
+          <article
+            class="new__card"
+            data-aos="fade-up"
+            data-aos-duration="2000">
+            <img src="./img/new3.jpg" class="new__img" alt="" />
+            <a href="#" class="new__link">
+              <div class="new__data">
+                <h2 class="new__title">Coats & Coat Sets</h2>
+                <span>Winter collection</span>
+              </div>
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </article>
+        </div>
+      </section>
+      <!-- end new section  -->
+
+      <!-- start collection section  -->
+      <section class="collection section" id="collection">
+        <div class="collection__container container">
+          <div class="collection__explore" data-aos="fade-left">
+            <div class="collection__data-men">
+              <h2 class="collection__title">
+                Men <br />
+                Collection
+              </h2>
+              <a href="" class="button__link"
+                >Explore Clothes<i class="ri-arrow-right-line"></i
+              ></a>
+            </div>
+            <img src="./img/men-collection.jpg" alt="" />
+          </div>
+
+          <div class="collection__explore" data-aos="fade-right">
+            <img src="./img/women-collection.jpg" alt="" />
+
+            <div class="collection__data-women">
+              <h2 class="collection__title">
+                Women<br />
+                collection
+              </h2>
+              <a href="" class="button__link"
+                >Explore Clothes<i class="ri-arrow-right-line"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end collection section  -->
+
+      <!-- start products section  -->
+      <section class="products section" id="products">
+        <h2 class="section__title">Best Products</h2>
+        <div class="products__container container swiper">
+          <div class="swiper-wrapper">
+            <article class="products__card swiper-slide">
+              <img src="./img/product1.png" alt="" class="products__img" />
+
+              <h2 class="products_title">Gotland black Jacket</h2>
+
+              <span class="products__price"> $124.99 </span>
+            </article>
+
+            <article class="products__card swiper-slide">
+              <img src="./img/product2.png" alt="" class="products__img" />
+              <h2 class="products_title">Gotland black Jacket</h2>
+              <span class="products__price"> $124.99 </span>
+            </article>
+
+            <article class="products__card swiper-slide">
+              <img src="./img/product4.png" alt="" class="products__img" />
+              <h2 class="products_title">Gotland black Jacket</h2>
+              <span class="products__price"> $124.99 </span>
+            </article>
+
+            <article class="products__card swiper-slide">
+              <img src="./img/product3.png" alt="" class="products__img" />
+              <h2 class="products_title">Gotland black Jacket</h2>
+              <span class="products__price"> $124.99 </span>
+            </article>
+          </div>
+          <div class="swiper-button-next" id="next">
+            <i class="ri-arrow-right-line"></i>
+          </div>
+
+          <div class="swiper-button-prev" id="prev">
+            <i class="ri-arrow-left-line"></i>
+          </div>
+        </div>
+      </section>
+      <!-- end products section  -->
+
+      <!-- start brand section  -->
+      <section class="brand section" id="brand">
+        <h2 class="section__title">products we sell</h2>
+        <div class="brand__container container grid">
+          <img src="./img/logo1.png" alt="" class="brand__img" />
+          <img src="./img/logo2.png" alt="" class="brand__img" />
+          <img src="./img/logo3.png" alt="" class="brand__img" />
+          <img src="./img/logo4.png" alt="" class="brand__img" />
+        </div>
+      </section>
+      <!-- end brand section  -->
+      <!-- start footer  -->
+      <footer class="footer section">
+        <div class="footer__container container grid">
+          <div>
+            <a href="#" class="footer__logo"> products.</a>
+            <p class="footer__description">
+              Committed to brunging you the <br />
+              best clothing from popular<br />
+              brands
+            </p>
+          </div>
+          <div class="footer__content">
+            <div>
+              <h3 class="footer__titile">Company</h3>
+              <ul class="footer__links">
+                <li><a href="#" class="footer__link">shop</a></li>
+                <li><a href="#" class="footer__link">Category</a></li>
+                <li><a href="#" class="footer__link">Contact info</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="footer__titile">Blog</h3>
+              <ul class="footer__links">
+                <li><a href="#" class="footer__link">Events</a></li>
+                <li><a href="#" class="footer__link">popular news</a></li>
+                <li><a href="#" class="footer__link">Recent news</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="footer__titile">Office</h3>
+              <p class="footer__information">
+                monday - saturday <br />
+                9AM - 10PM
+              </p>
+            </div>
+
+            <div>
+              <h3 class="footer__titile">Contact us</h3>
+              <ul class="footer__social">
+                <a href="#" target="_blank" class="footer__social-link">
+                  <i class="ri-facebook-fill"></i>
+                </a>
+                <a href="#" target="_blank" class="footer__social-link">
+                  <i class="ri-instagram-line"></i>
+                </a>
+                <a href="#" target="_blank" class="footer__social-link">
+                  <i class="ri-whatsapp-line"></i>
+                </a>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__info container">
+          <span class="footer__copy">
+            &#169; Bedimcode. All rigths reserved;<br />
+            <a href="#" class="footer__privacy"> Terms & conditions </a>
+          </span>
+        </div>
+      </footer>
+      <!-- end footer  -->
+    </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="./js/swiper-bundle.min.js"></script>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
