@@ -249,7 +249,7 @@ header {
   padding-bottom: 20rem;
 }
 .products__card {
-  width: 500px !important;
+  max-width: 500px !important;
 }
 .products__img {
   margin-bottom: 1rem;
